@@ -8,6 +8,10 @@ body {
     font-family: "Rajdhani", sans-serif;
 }
 
+#container {
+    background-color: #2C2F33;
+}
+
 nav {
     font-weight: 600;
     text-transform: uppercase;
