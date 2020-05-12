@@ -26,8 +26,8 @@ nav:hover {
 .warning {
     padding: 20px 15px;
     margin: 30px 0;
-    border-left: 20px solid rgba(0,0,0,.5);
-    background-color: #FFFF00;
+    border-left: 20px solid #bfa31d;
+    background-color: #f2cb13;
     color: #000;
     font-weight: 900;
 }
