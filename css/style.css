@@ -14,6 +14,7 @@ a {
 a:hover {
     color: #ff5600;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .container {
@@ -39,6 +40,11 @@ a:hover {
 }
 .sub-menu i {
     font-size: 30px;
+}
+.sub-menu:hover {
+    color: #ff5600;
+    text-decoration: none;
+    cursor: pointer;
 }
 .sub-menu a {
     text-decoration: none;
