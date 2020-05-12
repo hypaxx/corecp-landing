@@ -9,5 +9,12 @@ body {
 }
 
 nav {
-    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #99AAB5;
+    position: sticky;
+}
+
+nav:hover {
+    color: #ff5600;
 }
