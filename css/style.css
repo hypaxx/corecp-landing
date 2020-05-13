@@ -29,8 +29,12 @@ a:hover {
     background-color: #2C2F33;
     max-width: 1600px;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 25px;
     padding: 20px 40px;
+}
+
+.imprint > p {
+    line-height: 0.5;
 }
 
 /* =================================== */
@@ -130,6 +134,7 @@ a:hover {
     background-color: #f2cb13;
     color: #000;
     font-weight: 900;
+    border-radius: 5px;
 }
 .error {
     padding: 20px 15px;
@@ -138,6 +143,7 @@ a:hover {
     background-color: #d91e18;
     color: #000;
     font-weight: 900;
+    border-radius: 25px;
 }
 
 /* =================================== */
@@ -145,5 +151,53 @@ a:hover {
 /* =================================== */
 footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
+    background-color: rgb(54, 56, 59);
+    color: rgb(146, 146, 146) !important;
+    max-width: 1600px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+footer > a {
+    color: rgb(146, 146, 146);
+}
+
+footer > a:hover {
+    color: #ff5600;
+}
+
+/* =================================== */
+/* ///// Überschriften & Texte
+/* =================================== */
+
+p {
+    font-size: 2ex;
+}
+
+#title {
+    padding: 0;
+    margin: 0;
+}
+
+#title > p {
+    padding: 0;
+    margin: 0;
+}
+
+title1 {
+    font-weight: bold;
+    font-size: 5ex;
+}
+
+title2 {
+    font-size: 2.75ex;
+    font-weight: bold;
+    color: #99AAB5;
+}
+
+title3 {
+    font-size: 2.1ex;
+    font-weight: bold;
+    color: #ff5600;
 }
