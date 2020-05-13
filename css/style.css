@@ -1,3 +1,11 @@
+/* =================================== */
+/* //////// CoreCP.io Website ////////
+/* 
+/*    File: Main Stylesheet
+/*    Created by: NiceKype & Hypax
+/* 
+/* =================================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 body {
@@ -25,10 +33,24 @@ a:hover {
     padding: 20px 40px;
 }
 
+/* =================================== */
+/* ///// Header
+/* =================================== */
 .header {
+    background: url("../img/background.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.header-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 .header img {
     width: 200px;
@@ -50,19 +72,57 @@ a:hover {
     text-decoration: none;
     vertical-align: center;
     padding-bottom: 15px;
+    padding: 0 10px;
 }
-nav {
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #99AAB5;
+
+/* =================================== */
+/* ///// Main Navigation
+/* =================================== */
+.main-nav {
+    background-color: #181818;
+    background-size: 100% auto;
+    padding: 4px 300px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 126px;
+    margin-bottom: 40px;
     position: sticky;
 }
-
-nav:hover {
+.main-nav ul {
+    max-width: 1200px;
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+}
+.main-nav li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+}
+.main-nav a {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #99AAB5;
+}
+.main-nav a:hover {
     color: #ff5600;
 }
+.main-nav .nav-item {
+    padding: 0 30px;
+}
+.main-nav .nav-item .dropdown:after {
+    content: "\f107";
+    position: absolute;
+    right: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
 
-/* Hinweise */
+/* =================================== */
+/* ///// Hinweise
+/* =================================== */
 .warning {
     padding: 20px 15px;
     margin: 15px 20px;
@@ -78,4 +138,12 @@ nav:hover {
     background-color: #d91e18;
     color: #000;
     font-weight: 900;
+}
+
+/* =================================== */
+/* ///// Footer
+/* =================================== */
+footer {
+    text-align: center;
+    padding: 20px 0;
 }
