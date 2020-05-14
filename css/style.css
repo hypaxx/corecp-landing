@@ -24,6 +24,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+p {
+    font-size: 2ex;
+}
 h1 {
     font-weight: bold;
     font-size: 5ex;
@@ -184,22 +187,4 @@ footer > a {
 
 footer > a:hover {
     color: #ff5600;
-}
-
-/* =================================== */
-/* ///// Überschriften & Texte
-/* =================================== */
-
-p {
-    font-size: 2ex;
-}
-
-#title {
-    padding: 0;
-    margin: 0;
-}
-
-#title > p {
-    padding: 0;
-    margin: 0;
 }
