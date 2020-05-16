@@ -1,4 +1,5 @@
 /* =================================== */
+
 /* //////// CoreCP.io Website ////////
 /* 
 /*    File: Main Stylesheet
@@ -7,7 +8,6 @@
 /* =================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
 body {
     background-color: #23272A;
     background-repeat: no-repeat;
@@ -15,27 +15,33 @@ body {
     color: #FFF;
     font-family: "Rajdhani", sans-serif;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     color: #ff5600;
     text-decoration: none;
     cursor: pointer;
 }
+
 p {
     font-size: 2ex;
 }
+
 h1 {
     font-weight: bold;
     font-size: 5ex;
 }
+
 h2 {
     font-size: 2.75ex;
     font-weight: bold;
     color: #99AAB5;
 }
+
 h3 {
     font-size: 2.1ex;
     font-weight: bold;
@@ -48,8 +54,10 @@ imp {
 }
 
 /* =================================== */
+
 /* ///// Content
 /* =================================== */
+
 .container {
     background-color: #2C2F33;
     max-width: 1600px;
@@ -64,8 +72,10 @@ imp {
 }
 
 /* =================================== */
+
 /* ///// Header
 /* =================================== */
+
 .header {
     background: url("../img/background.jpg");
     background-position: fixed;
@@ -77,27 +87,33 @@ imp {
     top: 0;
     right: 0;
 }
+
 .header-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 50px 0;
 }
+
 .header img {
     width: 200px;
 }
+
 .sub-menu {
     right: 0;
     text-align: right;
     margin-top: -30px;
 }
+
 .sub-menu i {
     font-size: 30px;
 }
+
 .sub-menu:hover {
     color: #ff5600;
     text-decoration: none;
     cursor: pointer;
 }
+
 .sub-menu a {
     text-decoration: none;
     vertical-align: center;
@@ -106,8 +122,10 @@ imp {
 }
 
 /* =================================== */
+
 /* ///// Main Navigation
 /* =================================== */
+
 .main-nav {
     background-color: #181818;
     background-size: 100% auto;
@@ -120,28 +138,34 @@ imp {
     position: sticky;
     z-index: 100;
 }
+
 .main-nav ul {
     max-width: 1200px;
     list-style: none;
     flex-direction: row;
     display: flex;
 }
+
 .main-nav li {
     display: inline;
     list-style-type: none;
 }
+
 .main-nav a {
     font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
     color: #99AAB5;
 }
+
 .main-nav a:hover {
     color: #fff;
 }
+
 .main-nav .nav-item {
     padding: 0 30px;
 }
+
 .main-nav .nav-item .dropdown:after {
     content: "\f107";
     position: absolute;
@@ -152,8 +176,10 @@ imp {
 }
 
 /* =================================== */
+
 /* ///// Hinweise
 /* =================================== */
+
 .warning {
     padding: 20px 15px;
     margin: 15px 20px;
@@ -163,6 +189,7 @@ imp {
     font-weight: 900;
     border-radius: 5px;
 }
+
 .error {
     padding: 20px 15px;
     margin: 30px 100px;
@@ -174,8 +201,10 @@ imp {
 }
 
 /* =================================== */
+
 /* ///// Footer
 /* =================================== */
+
 footer {
     text-align: center;
     padding: 5px 0;
@@ -187,17 +216,19 @@ footer {
     border-radius: 15px;
 }
 
-footer > a {
+footer>a {
     color: rgb(146, 146, 146);
 }
 
-footer > a:hover {
+footer>a:hover {
     color: #ff5600;
 }
 
 /* =================================== */
+
 /* ///// Slider
 /* =================================== */
+
 .slideshow-container {
     max-width: 100%;
     position: relative;
@@ -226,7 +257,7 @@ footer > a:hover {
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .text {
@@ -240,6 +271,7 @@ footer > a:hover {
     max-width: 100%;
     text-align: center;
 }
+
 .numbertext {
     color: #f2f2f2;
     background-color: rgba(19, 19, 19, 0.5);
@@ -259,7 +291,7 @@ footer > a:hover {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-  
+
 .active, .dot:hover {
     background-color: #717171;
 }
@@ -270,24 +302,36 @@ footer > a:hover {
     animation-name: fade;
     animation-duration: 1.5s;
 }
-  
+
 @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
-  
+
 @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+    .prev, .next, .text {
+        font-size: 11px
+    }
 }
 
 /* =================================== */
+
 /* ///// Preloader
 /* =================================== */
+
 #loader {
     position: absolute;
     left: 50%;
@@ -303,58 +347,80 @@ footer > a:hover {
     height: 120px;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  /* Add animation to "page content" */
-  .animate-bottom {
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+
+.animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
     animation-duration: 1s
-  }
-  
-  @-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
-  }
-  
-  @keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-  }
-  
-  #myDiv {
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#myDiv {
     display: none;
     text-align: center;
-  }
+}
 
 /* =================================== */
+
 /* ///// Scrollbar
 /* =================================== */
 
 body::-webkit-scrollbar {
     width: 0.7em;
 }
- 
+
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
-  background-color: #2a2b31;
-  outline: 1px solid #2a2b31;
+    background-color: #2a2b31;
+    outline: 1px solid #2a2b31;
     border-radius: 5px;
 }
 
@@ -362,4 +428,116 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #ff5600;
     outline: 1px solid #ff5600;
     border-radius: 5px;
+}
+
+/* =================================== */
+
+/* ///// Team
+/* =================================== */
+
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ccontainer {
+    padding: 0 16px;
+    text-align: center;
+    overflow: hidden;
+    background: #1a1a1a;
+}
+
+.ccontainer::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ccontainer>h2 {
+    padding-top: 25px;
+    text-align: center;
+    color: #ff5600;
+}
+
+.title {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+    margin: -10px;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.ccontainer .staff-socials {
+    font-size: 2.5ex;
+    background-color: #1e1e1f;
+    padding: 10px 15px 10px 15px;
+    vertical-align: center;
+}
+
+.column. .card .ccontainer .staff-img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.staff-img {
+    background-color: #1e1e1f;
+    min-width: 100%;
+}
+
+
+.staff-img>i {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: -45px;
+    max-width: 80px;
+    max-height: 80px;
+    padding: 20px;
+    background-color: #1e1e1f;
+    font-size: 50px;
+    border: #ff5600 solid 3px;
+}
+
+.staff-img>i:hover {
+    color:white;
+    /*background-image: linear-gradient(to right bottom, #ff5600, #ff5600, #ff5600, #ff5600, #ff5600, #f45200, #e94f00, #de4b00, #c64300, #af3b00, #993400, #832c00);*/
+    background-color: #ff5600;
+    transition: background-color 0.6s ease;
+    transition: color 0.6s ease;
+}
+
+.ccontainer > p {
+    color: #99AAB5;
 }
